@@ -1,0 +1,37 @@
+############################################
+# Introduction, Tooling, and Editor Setup
+############################################
+Install node.js (LTS version) 
+install React Dev Tools (firefox addon)
+
+In explorer, don't use odd characters in folder/files names. 
+Also beware renaming (when running node.js)
+
+-- package.json
+    dependencies:
+firebase - connecting to databse
+prop-types - used to be part of react, seperated to own package
+re-base - connect to firebase, sync changes in realtime
+react-router - 
+react-transition-group - 
+    scripts:
+START are important/useful
+
+
+##############################
+# starting catch-of-the-day
+##############################
+-- in catch-of-the-day folder
+'npm install' to get modules
+if something goes wrong, just delete modules (possibly package-lock file as well), then npm install again
+
+'npm start' to start the local server
+
+###########
+# Other
+###########
+
+NVM (Node version manager) would allow you to test with different versions of Node.js
+Not necessary to install
+
+https://uses.tech/
