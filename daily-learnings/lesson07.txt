@@ -1,0 +1,19 @@
+####################################
+# Passing Dynamic data with props
+####################################
+
+props are the way we get data into a Component
+* props are sent to Components similar to HTML attributes
+  <Component prop1="string" prop2={500} />
+* non-strings must be sent with curly-brackets
+* props are refrenced with this.props
+  In Component:
+  <tag>{this.props.prop1}</tag>
+
+
+$0 and $r
+* in dev tools, $0 will be the currently selected tag
+* $1 is the previously selected tag ($2 is before that, and so on)
+* $r is the selected component in Dev Tools
+* $r is useful for selecting specific instances of the same component
+  it becomes equal to "this" when selected
