@@ -1,0 +1,27 @@
+##########################
+# Writing HTML with JSX
+##########################
+
+old ways to render HTML in JSX
+* "<p>" + varName + "</p>"
+* `<p> {varName} </p>`
+* document.createElement()
+
+React ways to render HTML
+* Render.createElement('tag', {className: className}, 'inner content')
+* just use regular HTML, with some caveats
+
+react HTML caveats
+* when wanting to give class, must use keyword "className"
+* for multiline HTML, do return ( HTML_code );
+* Cannot return sibling elements. Can only return ONE element.
+* In later versions of React, above can be fixed with React.Fragment tag
+  Even later versions can use <> </> instead of Fragment
+* For commenting, use {/* comment */}
+  must be within the most-outside element
+
+emmit - https://www.youtube.com/watch?v=JTHM077EHbI
+    form.store-selector ->
+    <form> className="store-selector"></form>
+
+https://docs.emmet.io/abbreviations/syntax/
