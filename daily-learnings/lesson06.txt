@@ -1,0 +1,12 @@
+####################################################
+# Creating our application layout with components
+####################################################
+
+Within App component
+* Create Header, Order, Inventory Components
+
+snippets
+* Gained through extension
+* rce - create a React Component with export
+
+https://github.com/dsznajder/vscode-react-javascript-snippets/blob/HEAD/docs/Snippets.md

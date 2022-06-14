@@ -1,0 +1,11 @@
+###########################################
+# Loading CSS into our React Application
+###########################################
+
+If existing website, and only inject React into:
+* in index.html or other mounting point page
+  <link rel="stylesheet" href="style.css">
+
+Componentized CSS or Inline CSS
+* in the specified component to be used
+  import "./css/style.css"
