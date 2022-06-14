@@ -1,0 +1,15 @@
+##################################
+# Creating our First Components
+##################################
+
+* To use react, use 'import React from "react"'
+* your class should extends React.Component
+* Every single React class needs at least one method in it, called render()
+* render() returns some JSX HTML
+* Must export default Class to be used elsewhere
+
+* in index.html, the #main div is where our React app gets mounted
+* You can also mount only part of a page with React, if wanted
+*** research react-dom vs react
+* To render to page, we need render() from react-dom
+* render(JSX_HTML, DOM_element_Selector)
